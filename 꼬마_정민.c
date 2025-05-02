@@ -1,4 +1,4 @@
-//int 사용 불가, long 사용 문제
+//int 사용 불가(bec 1-10의12승), long 사용 문제
 
 #include <stdio.h>
 int main() {
