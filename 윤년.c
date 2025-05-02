@@ -2,21 +2,21 @@
 
 #include <stdio.h>
 int main() {
-  	int input;
-  	int output;
-  	    
-  	scanf("%d", &input);
-  	if (input % 400 == 0) {
-  		output = 1;
-  	}
-  	else if (input % 100 == 0) {
-  		output = 0;
-  	}
-  	else if (input % 4 == 0) {
-  		output = 1;
-  	}
-  	else output = 0;
-  	printf("%d\n", output);
-  	
-  	return 0;
+    int input;
+    int output;
+    	    
+    scanf("%d", &input);
+    if (input % 400 == 0) {
+    	output = 1;
+    }
+    else if (input % 100 == 0) {
+    	output = 0;
+    }
+    else if (input % 4 == 0) {
+    	output = 1;
+    }
+    else output = 0;
+    printf("%d\n", output);
+    	
+    return 0;
 }
