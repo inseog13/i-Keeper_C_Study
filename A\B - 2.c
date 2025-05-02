@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
-    float A, B;
-    scanf("%f %f", &A, &B);
-    printf("%f\n", A / B);
+    float a, b;
+    scanf("%f %f", &a, &b);
+    printf("%f\n", a / b);
     return 0;
 }
