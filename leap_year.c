@@ -1,4 +1,6 @@
 //윤년은 4의 배수이면서 100의 배수가 아닌것. 단, 400의 배수는 윤년
+
+#include <stdio.h>
 int main() {
 	int input;
 	int output;
